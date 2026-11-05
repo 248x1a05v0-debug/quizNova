@@ -1,0 +1,6 @@
+{
+  "name": "QuizNova - Smart Quiz & Learning App",
+  "description": "Interactive educational quiz application with live Open Trivia API, custom question creator, timed challenges, leaderboards, and progress tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

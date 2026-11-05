@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="50%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#1e1b4b" flood-opacity="0.4" />
+    </filter>
+  </defs>
+  
+  <!-- Rounded App Icon Background -->
+  <rect width="512" height="512" rx="128" fill="url(#grad)" />
+  
+  <!-- Subtle Inner Glow Ring -->
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="none" stroke="white" stroke-opacity="0.15" stroke-width="6" />
+
+  <!-- Central Academic Quiz Emblem -->
+  <g filter="url(#shadow)" transform="translate(256, 256)">
+    <!-- Graduation Cap / Scholar Motif -->
+    <path d="M-140,-50 L0,-110 L140,-50 L0,10 Z" fill="#FFFFFF" />
+    <path d="M-140,-50 L-140,20 C-140,70 -70,110 0,110 C70,110 140,70 140,20 L140,-50 L0,0 Z" fill="#F1F5F9" opacity="0.9" />
+    <!-- Tassel -->
+    <path d="M120,-40 C140,-20 150,10 155,50" stroke="#FDE047" stroke-width="12" stroke-linecap="round" fill="none" />
+    <circle cx="155" cy="55" r="10" fill="#FACC15" />
+    
+    <!-- Sparkle / Star of Knowledge -->
+    <path d="M0,-30 L10,-5 M35,-5 L15,10 M22,35 L0,20 M-22,35 L-15,10 M-35,-5 L-10,-5 Z" fill="#FDE047" transform="scale(1.2)" />
+  </g>
+</svg>
